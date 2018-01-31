@@ -9,6 +9,6 @@ function callback(element, index, array) {
 function iterate(callback) {
   let v = ['Alpha', 'Bravo', 'Charlie'];
 
-  v.foreach(callback);
+  v.forEach(callback);
   return v;
 }
