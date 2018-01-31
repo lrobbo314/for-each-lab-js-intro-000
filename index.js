@@ -2,6 +2,6 @@ function iterativeLog(array) {
   array.forEach(callback);
 }
 
-function callback(index, element) {
+function callback(element, index) {
   console.log(`${index}: ${element}`);
 }
