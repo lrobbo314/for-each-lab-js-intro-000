@@ -12,3 +12,7 @@ function iterate(callback) {
   v.forEach(callback);
   return v;
 }
+
+function doToArray(array, callback) {
+  array.callback(callback);
+}
